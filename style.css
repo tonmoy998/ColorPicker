@@ -1,0 +1,76 @@
+html,body,div{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 0rem;
+}
+.background{
+    width: 90%;
+    max-width: 30rem;
+    background-color: rgb(68, 67, 67);
+    font-family: var(--font);
+    color: rgb(253, 253, 253);
+}
+.tittle{
+    text-align: center;
+}
+.p-absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d-flex{
+    display: flex;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.logo{
+    font-weight: 700;
+    font-family: cursive,Courier, monospace ,sans-serif;
+    color: rgb(19, 236, 236);
+    font-size: 2rem;
+    text-decoration: none;
+}
+.bg{
+    background-color: rgb(253, 254, 255);
+    box-shadow: 0px 1px 4px rgb(187, 183, 183);
+}
+.p-1{
+    padding: 1rem;
+}
+.page-container{
+    margin-top: 0.5rem;
+}
+.simple,.hex{
+    color: rgb(58, 57, 57);
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    font-family: var(--font);
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+.btn-hero{
+    padding: 0.6rem 1.25rem;
+    background-color: transparent;
+    color: rgb(63, 61, 61);
+    font-family: var(--font);
+    font-size: 1.3rem;
+    font-weight: 800;
+    top: 62%;
+    border-radius: 5%;
+    border: 3px solid rgb(61, 60, 60);
+}
+.btn-hero:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+    cursor:pointer;
+}
